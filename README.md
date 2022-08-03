@@ -1,7 +1,7 @@
 # Kodluyoruz İlk Repo
-Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Freondt-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html braındırıyor.
+Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Freondt-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
 
-![lorem picsum](https://picsum.photos/200/300)
+![lorem picsum](/project%20screen%20shot.jpg)
 
 
 # Installation
