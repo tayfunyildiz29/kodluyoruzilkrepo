@@ -124,8 +124,9 @@ function loadData(){
         // left Days Average
         
         let leftDaysAverage = (budgetLeft / leftDays).toFixed(2)
+        if(leftDaysAverage>0){
         leftDaysAverageField.innerHTML=leftDaysAverage.toLocaleString("en")+"₺"
-        
+        }
     }
 }
 // loadData function ends here
