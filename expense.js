@@ -90,7 +90,11 @@ function loadData(){
     
         //average spending
         let averageSpending= totalSpending / amounts.length
-        averageField.innerHTML += "<div>"+ averageSpending.toFixed(2)+ "₺ </div>"
+        if (averageSpending >0){
+            averageField.innerHTML += "<div>"+ averageSpending.toFixed(2)+ "₺ </div>"
+
+        }
+        
     
         //Dates
         let todaysDate = new Date(`${new Date().getFullYear()}-${new Date().getMonth()+1}-${new Date().getDate()}`)
