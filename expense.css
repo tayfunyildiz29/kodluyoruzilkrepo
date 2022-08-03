@@ -1,0 +1,202 @@
+*{
+    margin: 3px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+body{
+    margin-top: 50px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    max-width:700px;
+    min-height: 80vh;
+}
+header{
+    border-bottom: 5px solid teal;
+    color: teal;
+    font-size: 3vw;
+
+}
+
+.userInputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+#places, #chooseType, #price{
+    height: 32px;
+    border: 1px solid black;
+    background-color: azure;
+    width: 100px;
+    }
+
+
+
+#price{
+    text-align: center;
+    width: 100px;
+    border: 1px solid;
+}
+
+#currency{
+    line-height: 40px;
+    font-weight: 900;
+}
+
+img#add{
+    height: 2.5rem; 
+}
+
+table{
+    font-size: 1rem;
+    border-bottom: 4px solid teal;
+}
+
+.nar{
+    width: 5%
+}
+
+td{
+    line-height: 1vh;
+}
+
+.inits{
+    background-color: bisque;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.saveContent:hover{
+    border: 1px solid blue;
+    background-color: orange;
+}
+
+
+.initialSetting{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid brown;
+    justify-content: center;
+    
+
+}
+
+
+.initialSetting > *{
+    display: flex;
+   
+    
+    
+    
+}
+
+
+
+.summary{
+    
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    flex-wrap:wrap;
+    border-bottom: 4px solid teal;
+
+  
+}
+
+
+.summary >*{
+    
+    flex: auto;
+    height: fit-content;
+  
+  
+}
+
+.summary-item{
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: justify;
+
+}
+
+
+
+.label-results > div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.label-results > div{
+    border: 1px solid black;
+}
+
+.resetDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+#resetButton{
+    position: relative;
+    height: 32px;
+    margin: auto;
+    border-radius: 4px;
+    
+  
+  }
+
+#warning{
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 100%;
+    left:-80%
+
+}
+
+#resetButton:hover #warning{
+    display: block;
+
+
+
+    
+ }
+
+
+@media screen and (max-width: 600px) {
+
+  body{
+    width: 95%}
+  table{
+    font-size:0.8rem;
+    width: 95%}
+
+  .summary-item, .inits {
+    font-size: 0.8rem;
+    width:110px;
+  }
+  
+  .initialSetting > div{
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    
+    text-align:center;
+  }
+}
+  
+
+
+
+
