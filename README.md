@@ -1,4 +1,6 @@
 # Kodluyoruz İlk Repo
+[patika.dev](www.patika.dev )
+
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Go ile Back-End Patikaları Git Eğitiminde oluşturduğum ilk repo. İçerisinde şu dosyalar bulunuyor:
 
 * README.md
