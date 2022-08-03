@@ -1,5 +1,14 @@
 # Kodluyoruz İlk Repo
-Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Freondt-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
+Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Go ile Back-End Patikaları Git Eğitiminde oluşturduğum ilk repo. İçerisinde şu dosylar bulunuyor:
+
+* README.md
+* .gitignore
+* index.html
+* expense.css
+* LICENSE
+* new.jpeg
+* project screen shot.jpg
+
 
 ![lorem picsum](/project%20screen%20shot.jpg)
 
